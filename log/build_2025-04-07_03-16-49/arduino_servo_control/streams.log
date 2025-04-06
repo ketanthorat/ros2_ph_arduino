@@ -1,0 +1,41 @@
+[0.381s] Invoking command in '/home/ketan/ros2_ws/src/arduino_servo_control': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ketan/ros2_ws/build/arduino_servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_servo_control build --build-base /home/ketan/ros2_ws/build/arduino_servo_control/build install --record /home/ketan/ros2_ws/build/arduino_servo_control/install.log --single-version-externally-managed install_data
+[0.523s] running egg_info
+[0.524s] creating ../../build/arduino_servo_control/arduino_servo_control.egg-info
+[0.524s] writing ../../build/arduino_servo_control/arduino_servo_control.egg-info/PKG-INFO
+[0.524s] writing dependency_links to ../../build/arduino_servo_control/arduino_servo_control.egg-info/dependency_links.txt
+[0.524s] writing entry points to ../../build/arduino_servo_control/arduino_servo_control.egg-info/entry_points.txt
+[0.524s] writing requirements to ../../build/arduino_servo_control/arduino_servo_control.egg-info/requires.txt
+[0.524s] writing top-level names to ../../build/arduino_servo_control/arduino_servo_control.egg-info/top_level.txt
+[0.524s] writing manifest file '../../build/arduino_servo_control/arduino_servo_control.egg-info/SOURCES.txt'
+[0.525s] reading manifest file '../../build/arduino_servo_control/arduino_servo_control.egg-info/SOURCES.txt'
+[0.525s] writing manifest file '../../build/arduino_servo_control/arduino_servo_control.egg-info/SOURCES.txt'
+[0.525s] running build
+[0.526s] running build_py
+[0.526s] creating /home/ketan/ros2_ws/build/arduino_servo_control/build
+[0.526s] creating /home/ketan/ros2_ws/build/arduino_servo_control/build/lib
+[0.526s] creating /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control
+[0.526s] copying arduino_servo_control/__init__.py -> /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control
+[0.526s] copying arduino_servo_control/servo_control.py -> /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control
+[0.526s] copying arduino_servo_control/keyboard_publisher.py -> /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control
+[0.526s] running install
+[0.526s] running install_lib
+[0.526s] creating /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control
+[0.526s] copying /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control/__init__.py -> /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control
+[0.526s] copying /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control/servo_control.py -> /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control
+[0.526s] copying /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control/keyboard_publisher.py -> /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control
+[0.526s] byte-compiling /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control/__init__.py to __init__.cpython-310.pyc
+[0.526s] byte-compiling /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control/servo_control.py to servo_control.cpython-310.pyc
+[0.527s] byte-compiling /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control/keyboard_publisher.py to keyboard_publisher.cpython-310.pyc
+[0.527s] running install_data
+[0.527s] creating /home/ketan/ros2_ws/install/arduino_servo_control/share/ament_index
+[0.527s] creating /home/ketan/ros2_ws/install/arduino_servo_control/share/ament_index/resource_index
+[0.527s] creating /home/ketan/ros2_ws/install/arduino_servo_control/share/ament_index/resource_index/packages
+[0.527s] copying resource/arduino_servo_control -> /home/ketan/ros2_ws/install/arduino_servo_control/share/ament_index/resource_index/packages
+[0.527s] copying package.xml -> /home/ketan/ros2_ws/install/arduino_servo_control/share/arduino_servo_control
+[0.527s] running install_egg_info
+[0.529s] Copying ../../build/arduino_servo_control/arduino_servo_control.egg-info to /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control-0.1.0-py3.10.egg-info
+[0.529s] running install_scripts
+[0.543s] Installing keyboard_publisher script to /home/ketan/ros2_ws/install/arduino_servo_control/bin
+[0.543s] Installing servo_control script to /home/ketan/ros2_ws/install/arduino_servo_control/bin
+[0.543s] writing list of installed files to '/home/ketan/ros2_ws/build/arduino_servo_control/install.log'
+[0.558s] Invoked command in '/home/ketan/ros2_ws/src/arduino_servo_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ketan/ros2_ws/build/arduino_servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_servo_control build --build-base /home/ketan/ros2_ws/build/arduino_servo_control/build install --record /home/ketan/ros2_ws/build/arduino_servo_control/install.log --single-version-externally-managed install_data

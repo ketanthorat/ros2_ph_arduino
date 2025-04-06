@@ -1,0 +1,4 @@
+[console_scripts]
+keyboard_publisher = arduino_servo_control.keyboard_publisher:main
+servo_control = arduino_servo_control.servo_control:main
+

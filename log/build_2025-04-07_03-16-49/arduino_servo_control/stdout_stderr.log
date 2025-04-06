@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/arduino_servo_control/arduino_servo_control.egg-info
+writing ../../build/arduino_servo_control/arduino_servo_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/arduino_servo_control/arduino_servo_control.egg-info/dependency_links.txt
+writing entry points to ../../build/arduino_servo_control/arduino_servo_control.egg-info/entry_points.txt
+writing requirements to ../../build/arduino_servo_control/arduino_servo_control.egg-info/requires.txt
+writing top-level names to ../../build/arduino_servo_control/arduino_servo_control.egg-info/top_level.txt
+writing manifest file '../../build/arduino_servo_control/arduino_servo_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/arduino_servo_control/arduino_servo_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/arduino_servo_control/arduino_servo_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ketan/ros2_ws/build/arduino_servo_control/build
+creating /home/ketan/ros2_ws/build/arduino_servo_control/build/lib
+creating /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control
+copying arduino_servo_control/__init__.py -> /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control
+copying arduino_servo_control/servo_control.py -> /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control
+copying arduino_servo_control/keyboard_publisher.py -> /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control
+running install
+running install_lib
+creating /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control
+copying /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control/__init__.py -> /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control
+copying /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control/servo_control.py -> /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control
+copying /home/ketan/ros2_ws/build/arduino_servo_control/build/lib/arduino_servo_control/keyboard_publisher.py -> /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control
+byte-compiling /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control/servo_control.py to servo_control.cpython-310.pyc
+byte-compiling /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control/keyboard_publisher.py to keyboard_publisher.cpython-310.pyc
+running install_data
+creating /home/ketan/ros2_ws/install/arduino_servo_control/share/ament_index
+creating /home/ketan/ros2_ws/install/arduino_servo_control/share/ament_index/resource_index
+creating /home/ketan/ros2_ws/install/arduino_servo_control/share/ament_index/resource_index/packages
+copying resource/arduino_servo_control -> /home/ketan/ros2_ws/install/arduino_servo_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ketan/ros2_ws/install/arduino_servo_control/share/arduino_servo_control
+running install_egg_info
+Copying ../../build/arduino_servo_control/arduino_servo_control.egg-info to /home/ketan/ros2_ws/install/arduino_servo_control/lib/python3.10/site-packages/arduino_servo_control-0.1.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_publisher script to /home/ketan/ros2_ws/install/arduino_servo_control/bin
+Installing servo_control script to /home/ketan/ros2_ws/install/arduino_servo_control/bin
+writing list of installed files to '/home/ketan/ros2_ws/build/arduino_servo_control/install.log'
