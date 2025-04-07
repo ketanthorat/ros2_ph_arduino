@@ -1,4 +1,5 @@
 [console_scripts]
 keyboard_publisher = arduino_servo_control.keyboard_publisher:main
+sequence_publisher = arduino_servo_control.sequence_publisher:main
 servo_control = arduino_servo_control.servo_control:main
 

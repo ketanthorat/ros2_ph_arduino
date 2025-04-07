@@ -12,6 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        # Include launch files
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.[pxy][yma]*'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,6 +26,7 @@ setup(
         'console_scripts': [
             'servo_control = arduino_servo_control.servo_control:main',
             'keyboard_publisher = arduino_servo_control.keyboard_publisher:main',
+            'sequence_publisher = arduino_servo_control.sequence_publisher:main',
         ],
     },
 ) 

@@ -9,5 +9,7 @@ setup.py
 ../../build/arduino_servo_control/arduino_servo_control.egg-info/zip-safe
 arduino_servo_control/__init__.py
 arduino_servo_control/keyboard_publisher.py
+arduino_servo_control/sequence_publisher.py
 arduino_servo_control/servo_control.py
+launch/sequence_launch.py
 resource/arduino_servo_control
